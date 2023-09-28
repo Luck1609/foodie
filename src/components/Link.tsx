@@ -1,25 +1,25 @@
-import React, { ReactNode } from "react";
+import React, { ReactNode, HTMLAttributeAnchorTarget } from "react";
 import { Link } from "react-router-dom";
 
 export default function LinkItem({
   url,
-  target = null,
-  className = "",
+  target,
+  className,
   children,
   ...props
 }: {
   url: string,
-  target: any | null | undefined,
-  className: string | null | undefined,
+  target?: HTMLAttributeAnchorTarget | undefined,
+  className?: string | null | undefined,
   children: string | ReactNode,
-  props: string | null | undefined
+  props?: string | null | undefined
 }) {
   return (
     <Link
       to={target ? { pathname: url } : url}
       rel="noopener noreferrer"
       target={target && "_blank"}
-      className={className}
+      className={className ?? ""}
       {...props}
     >
       {children}

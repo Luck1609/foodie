@@ -6,6 +6,7 @@ import Reservation from "@/views/Reservation";
 import Menu from "./views/Menu";
 import About from "./views/About";
 import Contact from "./views/Contact";
+import Cart from "./views/Cart";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/reservations" element={<Reservation />} />
+          {/* <Route path="/cart" element={<Cart />} /> */}
         </Route>
       </Routes>
     </BrowserRouter>
