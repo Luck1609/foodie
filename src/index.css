@@ -12,3 +12,7 @@ body {
 .contained {
   @apply max-w-7xl m-auto;
 }
+
+fieldset {
+  @apply border-none !important;
+}

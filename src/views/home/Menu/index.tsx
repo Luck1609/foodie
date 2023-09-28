@@ -1,4 +1,3 @@
-import React from 'react'
 import MenuCard from './MenuCard'
 import BaseTemplate from '../BaseTemplate'
 import Btn from '@/components/Btn'

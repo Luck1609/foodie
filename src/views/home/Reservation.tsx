@@ -1,5 +1,4 @@
 import Btn from '@/components/Btn'
-import React from 'react'
 
 export default function Reservation() {
   return (

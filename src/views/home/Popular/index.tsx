@@ -1,4 +1,3 @@
-import React from 'react'
 import BaseTemplate from '../BaseTemplate'
 import PopularCard from './PopularCard'
 

@@ -1,4 +1,4 @@
-import React from "react";
+import { Facebook, Instagram, Twitter } from "@mui/icons-material";
 import { assets } from "@/assets/img";
 
 export default function Footer() {
@@ -56,9 +56,21 @@ export default function Footer() {
               Follow Us
             </label>
             <ul className="space-x-5 flex">
-              <li className="">Facebook</li>
-              <li className="">Instagram</li>
-              <li className="">X</li>
+              <li className="">
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <Facebook fontSize="large" />
+                </a>
+              </li>
+              <li className="">
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <Instagram fontSize="large" />
+                </a>
+              </li>
+              <li className="">
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <Twitter fontSize="large" />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
